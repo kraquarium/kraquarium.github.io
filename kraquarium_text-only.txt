@@ -1,16 +1,46 @@
 {
-    "about": "kra", 
-    "title": "kraquarium", 
-    "twitter": "@krakrakrakrakra", 
-    "medium": "@kra", 
-    "1st tumblr (poetic)": "Unter dem Zucker liegt der Strand", 
-    "2nd tumblr (hodgepodgey)": "Abrakradabra", 
-    "yo": "ABRAKRADABRA", 
+    "about": "kra",
+    "title": "kraquarium",
+    "twitter": [
+        "@krakrakrakrakra",
+        "https://twitter.com/krakrakrakrakra"
+    ],
+    "medium": [
+        "@kra",
+        "https://medium.com/@kra"
+    ],
+    "1st tumblr (poetic)": [
+        "Unter dem Zucker liegt der Strand",
+        "http://unterdemzuckerliegtderstrand.tumblr.com/"
+    ],
+    "2nd tumblr (hodgepodgey)": [
+        "Abrakradabra",
+        "http://abrakradabra.tumblr.com/"
+    ],
+    "yo": [
+        "ABRAKRADABRA",
+        "http://justyo.co/ABRAKRADABRA"
+    ],
     "ask for": [
-        "protected twitter", 
-        "#slack", 
-        "email", 
-        "jabber/XMPP", 
-        "RedPhone/TextSecure" 
+        [
+            "protected twitter",
+            "https://support.twitter.com/articles/14016-about-public-and-protected-tweets#"
+        ],
+        [
+            "#slack",
+            "https://slack.com/"
+        ],
+        [
+            "email",
+            "https://emailselfdefense.fsf.org/en/"
+        ],
+        [
+            "jabber/XMPP",
+            "http://www.jabber.org/"
+        ],
+        [
+            "RedPhone/TextSecure",
+            "https://whispersystems.org/"
+        ]
     ]
 }
