@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="about:kra">
+<html lang="de"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="description" content="about:kra">
 
-    <title>kraquarium &mdash; about:kra</title>
+  <title>kraquarium — about:kra</title>
 
   <style>
   @import url("Lato-Thin.css"); 
@@ -17,9 +16,9 @@
 
   * { margin: 0; padding: 0 }
   body { 
-    background: url("https://cloud.githubusercontent.com/assets/8429547/3894376/a1c1ce82-2243-11e4-892d-e3ed34589efd.jpg"); 
+    background: url("bg.jpg"); 
     background-size: cover; 
-    font: 100 28px Lato, "Helvetica Neue", "Segoe UI", sans-serif;  
+    font: 100 20px Lato, "Helvetica Neue", "Segoe UI", sans-serif;  
     color: #fff; 
     text-shadow: 0 -1px 0 rgba(0,0,0,.05);
     padding: 3% 5% 
@@ -30,89 +29,73 @@
     margin-right: .75em; 
     color: #fff 
   }
-  .eye { position: absolute; top: 10px; right: 10px; opacity: .4; border: 0; margin: 0; padding: 4 } 
-  .eye:hover { opacity: .7; background: 0 }
   .curlybrackets { 
     font-size: 2em; 
-    opacity: .4 
+    opacity: .25 
   }
   sup { 
     text-transform: uppercase; 
-    font-size: .35em 
+    font-size: .55em 
   }
   a, a:visited { 
     display: inline-block;
     font-size: .85em; 
     text-decoration: none; 
     color: #fff; 
-    margin: 8px 4px; 
-    padding: 8px 12px; 
+    margin: 6px 4px; 
+    padding: 6px 12px; 
     border: 1px solid rgba(255,255,255,.8); 
     border-radius: 2px; 
     transition: all ease-out .2s; 
     white-space: nowrap 
   } 
-  a:hover { 
-    background: rgba(255,255,255,.1); 
-  } 
+  a:hover { background: rgba(255,255,255,.2) } 
   table { 
     padding-left: 1em; 
     width: 100%; 
   }
-
   .emphasis { font-style: italic }
-  small { font: italic .5em Lato, "Helvetica Neue", "Segoe UI", sans-serif }
+  small { opacity: .4 }
   .protected:before {
     content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA5klEQVRIie2Nu0oDURRFr6J+QQIz19y9z+M2MnbTS4rpbSyEfIAW9gEhYmFQLIKFgqBVwP+0EoJIkHHGahac4uxirRAGBv4NI2dOXTh1kVM67VQuIpcOXGSRB6feKXnlIuedBZy6FHIVQtip63pfgUenLv/q3TVYY7DGyA9N+v71O7B2YG2wRlVPWtmrqjrQpM8O1NtOqS+tAzml682NZXlEstzcsshtJ4GiKMZCrizJay8BT36shzj7LuwsEGMcmciTA2+9BEIIwcwQYxz1FviJ1oFpmO7lCe4FmG+9CW5aBQYGfs0nNCY6JT8w7n4AAAAASUVORK5CYII="); 
     opacity: .7
   }
   </style>
-
 </head>
 <body>
+  <h1><strong>kra</strong>quarium</h1>
+  <span class="curlybrackets">{</span>
+    <table>
+     <tbody>
+      <tr>
+        <td class="emphasis">twitter: </td>
+        <td><small>twitter.com/</small><a href="https://twitter.com/krakrakrakrakra">@krakrakrakrakra</a></td>
+      </tr>
+      <tr>
+        <td class="emphasis">blog <sup>im Aufbau</sup>: </td>
+        <td><a href="https://zimtimgetriebe.blackblogs.org">Zimt im Getriebe</a><small>.blackblogs.org</small></td>
+      </tr>
+      <tr>
+        <td class="emphasis">blog <sup>ALT</sup>: </td>
+        <td><a href="http://unterdemzuckerliegtderstrand.tumblr.com">Unter dem Zucker liegt der Strand</a><small>.tumblr.com</small></td>
+      </tr>
+      <tr>
+        <td class="emphasis">email: </td>
+        <td><a href="mailto:zimtimgetriebe {at} riseup {punkt} net">zimtimgetriebe {at} riseup {punkt} net</a> <small>(pgp folgt)</small></td>
+      </tr>
+      <tr>
+        <td class="emphasis">nachfragen: </td>
+        <td>
+        [
+          <a href="http://www.jabber.org/" class="protected">jabber/XMPP</a>
+          <a href="https://whispersystems.org/" class="protected">RedPhone/TextSecure</a>
+        ]
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-<h1><strong>kra</strong>quarium</h1>
-<span class="curlybrackets">{</span>
-
- <table> <!-- sometimes there is a use for tables -->
-  <tr>
-   <td class="emphasis">twitter: </td>
-   <td><a href="https://twitter.com/krakrakrakrakra">@krakrakrakrakra</a></td>
-  </tr>
-  <tr>
-   <td class="emphasis">medium: </td>
-   <td><a href="https://medium.com/@kra">@kra</a></td>
-  </tr>
-  <tr>
-   <td class="emphasis">tumblr<sup>frst</sup>: </td>
-   <td><a href="http://unterdemzuckerliegtderstrand.tumblr.com">Unter dem Zucker liegt der Strand</a> <small>(poetic)</small></td>
-  </tr>
-  <tr>
-   <td class="emphasis">tumblr<sup>scnd</sup>: </td>
-   <td><a href="http://abrakradabra.tumblr.com">Abrakradabra</a> <small>(hodgepodgey)</small></td>
-  </tr>
-  <tr>
-   <td class="emphasis">yo: </td>
-   <td><a href="http://justyo.co/ABRAKRADABRA">ABRAKRADABRA</a></td>
-  </tr>
-  <tr>
-   <td class="emphasis">ask for: </td>
-   <td>[
-     <a href="https://support.twitter.com/articles/14016-about-public-and-protected-tweets#" class="protected">twitter<sup>scnd</sup></a> 
-     <a href="https://slack.com/" class="protected">#slack</a> 
-     <a href="https://emailselfdefense.fsf.org/en/" class="protected">email</a> 
-     <a href="http://www.jabber.org/" class="protected">jabber/XMPP</a>
-     <a href="https://whispersystems.org/" class="protected">RedPhone/TextSecure</a>
-   ]</td>
-  </tr>
-</table>
-
-
-<!-- base64encoded glasses-icon by http://www.aha-soft.com/ - thanks a lot! -->
-<a href="https://raw.githubusercontent.com/kraquarium/kraquarium.github.io/master/kraquarium_text-only.txt" title="text-only version" class="eye"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABnklEQVRIie3Vv0uWURQH8M8UoUM0JWEQiijYGG2t1dSPoa3JNvsHIgN9X99BaGloKMJ+bNUSuYWbYg4F4hotQYINIrko/uhpuOcheVDf9+HNZ0i/cOBy7/me77n3nnsPxzhq6EUDC/iIE23E6sA8PmMU5/ZzvIsVZPiNd20Kn8RUxMuwhFtFp6FY3MY4etoQLGIAjyP+Dm7mC+exijVc+YeCRdzGFpZxBh5FNvcOUTTHSGjdh6/4Lt3JYeMUfuGTyOB1BaI53mM9F65XKDwZmjKpkqvCK+m5HlHhBxUKPwtNW5iVdt2K1TAmFWQ9xrUS/EVR1Rv+/qdV2aoYPEUfBptYX/hmuBZWhj+AD1JPkEltq1WMBqc7rCx/0q7iqpUg1oPTG1b2VbzcLTxRgtgITo90vJlUYGWEM/iJbzjdInFaqspOdEWQNy1yz+KH1JgMB3kG/U2IN8L3bSGRHc17+QV8Cf6dfHIiJtaly2/sYc/DZ6WQ4EWp1W3iyT7cF9J/keFhMaPrmHPw+5vHpT12c1n6GA7izuBqk1M5xn+EP9jer8u25Ik+AAAAAElFTkSuQmCC"></a>
-
-<span class="curlybrackets">}</span>
-
+  <span class="curlybrackets">}</span>
 
 </body>
 </html>
